@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+html, body {
+	height: 100%;     
+}
+
+.centralizador {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    width: 100%;
+    max-width: 100%;    
+    color: white;
+    font-size: 14px;
+    background-color: #272727;   
+}
+
+footer .footer-img {
+    float: right;             
+}
+
+footer .texto  {
+    float: left;    
+    font-size: 20px;  
+    padding: 18px ;     
+    font-family: 'Roboto Slab', serif;
+}
+
+footer i {
+    font-size: 58px;
+    color: white;
+    padding: 20px 18px 25px 0; 
+    transition: 0.5s;             
+}
+
+.fa-chevron-circle-up {
+    font-size: 40px;
+    float: left;    
+}
+
+.fa-github-square:hover {
+    color: orange;
+}
+
+.fa-linkedin-square:hover {
+    color: #2962ff;
+}
+
+
+/* ----- RESPONSIVO MEDIA SCREEN ----- */	
+
+
+@media screen and (max-width: 992px) {
+  
+
+}
+
+@media screen and (max-width: 768px) {
+
+    footer .texto {
+        width: 100%;
+        display: block;
+        font-size: 17px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 5px;      
+    }
+
+    .footer-img {
+        width: 100%;
+        text-align: center;
+    }   
+    
+}
+
+@media screen and (max-width: 600px) {
+      
+    .footer-img {
+       text-align: center;
+    }
+    
+}
